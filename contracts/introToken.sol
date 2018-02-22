@@ -2,9 +2,9 @@ spragma solidity ^0.4.17;
 
 import 'zeppelin-solidity/contracts/token/ERC20/StandardToken.sol';
 
-contract TutorialToken is StandardToken {
+contract introToken is StandardToken {
 
-}tring public name = 'introToken';
+string public name = 'introToken';
 string public symbol = 'IT';
 uint8 public decimals = 10;
 uint public INITIAL_SUPPLY = 777;
